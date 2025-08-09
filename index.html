@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ravnice — Kalkulator trapeznog lima</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2F2F2F">
+  <link rel="icon" sizes="512x512" href="icon-512.png">
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Kalkulator trapeznog lima</h1>
+  <p>Ovdje ide tvoj kalkulator iz ranije verzije.</p>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js').then(function() {
+        console.log('Service Worker registriran');
+      });
+    }
+  </script>
+</body>
+</html>

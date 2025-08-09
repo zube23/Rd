@@ -1,0 +1,15 @@
+{
+  "name": "Ravnice",
+  "short_name": "Ravnice",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#2F2F2F",
+  "theme_color": "#2F2F2F",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
